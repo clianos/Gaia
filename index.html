@@ -1,0 +1,198 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <title>Gaia</title>
+
+    </head>
+
+
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Gaia</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">About Gaia<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Top stories <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="pollution.html">Pollution</a></li>
+                  <li><a href="energy.html">Energy</a></li>
+                  <li><a href="water.html">Water</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Archive</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="contact.html">Share your story</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Our sources</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a href="#">Top publications</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Shop Gaia</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="header">
+        <h1> GAIA </h1>
+        <h2> Your complete guide to all things environmental </h2>
+        <p>Trying to keep up with the big stories but spend hours trawling the internet for the key stories?</p>
+        <p>Look no more, we collate the key global news. Check us out daily for new stories, events and local community action.</p>
+        <p>Get involed by submitting events, groups and even your own grassroots stories</p>
+      </div>
+
+     <!-- Controls -->
+     <div class"c-wrapper">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   <!-- Indicators -->
+   <ol class="carousel-indicators middle">
+     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+   </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <a href="http://www.bbc.co.uk/news/health-35504768">
+            <img src="images/Pollution.jpg" alt="Pollution">
+            </a>
+            <div class="carousel-caption">
+              <h3>Pollution</h3>
+              <a href="http://www.bbc.co.uk/news/health-35504768">Drivers 'exposed to highest levels of pollution'</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <a href="http://www.theguardian.com/sustainable-business/2016/feb/17/solar-energy-isnt-just-good-for-polar-bears-its-good-for-the-working-class">
+            <img src="images/Energy.jpg" alt="Energy">
+            </a>
+            <div class="carousel-caption">
+              <h3>Energy</h3>
+              <a href="http://www.theguardian.com/sustainable-business/2016/feb/17/solar-energy-isnt-just-good-for-polar-bears-its-good-for-the-working-class">Solar energy isn't just good for polar bears, it's good for the working class</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <a href="http://www.theguardian.com/global-development-professionals-network/2016/feb/16/atms-cheap-safe-water-nairobis-slums">
+            <img src="images/Water.jpg" alt="Water">
+            </a>
+            <div class="carousel-caption">
+              <h3>Water</h3>
+              <a href="http://www.theguardian.com/global-development-professionals-network/2016/feb/16/atms-cheap-safe-water-nairobis-slums">The ATMs bringing cheap, safe water to Nairobi's slums</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+    <div class="indicators">
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+
+
+<div class='row'>
+  <div id="top">
+      <div class='col-sm-4'>
+        <div>
+          <h2>Key facts</h2>
+            <p>The science behind the arguments</p>
+              <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Global_warming">Global warming</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Emission">Emissions</a></li>
+                <li><a href="http://ishes.org/en/dilemma/dlm01.html">Unsustainable Growth and Population behaviour</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Environmental_policy">Policy</a></li>
+              </ul>
+        </div>
+      </div>
+      <div class='col-sm-4'>
+        <div>
+          <h2>Educational Resources</h2>
+            <p>Fun tools, podcasts and videos</p>
+             <ul>
+              <li><a href="http://www.elephantpodcast.org/">PODCAST: The Elephant</a></li>
+              <li><a href="http://uncached-site.globalcalculator.org/">TOOL: The Global Calculator</a></li>
+              <li><a href="https://www.youtube.com/watch?v=RgVPDyFpxnc">VIDEO: 10 Ways to Save the Environment</a></li>
+              <li><a href="https://www.energystar.gov/index.cfm?c=kids.lorax&_ga=1.238875200.1538827813.1435177899">GAME: Dr Suess Environmental game</a></li>
+            </ul>
+       </div>
+     </div>
+     <div class='col-sm-4'>
+      <div>
+        <h2>Bad Environmentalism</h2>
+          <p>Sceptic stories & all round bad science</p>
+            <ul>
+              <li><a href="http://www.healthfreedoms.org/top-scientist-resigns-admitting-global-warming-is-a-big-scam">Scientists pressurised</a></li>
+              <li><a href="http://www.independent.co.uk/news/science/vegetarian-diet-bad-for-environment-meat-study-lettuce-three-times-worse-emissions-bacon-a6773671.html">Conflicting information</a></li>
+              <li><a href="http://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/">Industry denial</a></li>
+              <li><a href="http://www.realclearpolitics.com/articles/2016/01/28/why_cheap_oil_isnt_bad_for_the_environment_129468.html">Justifying fossil fuels</a></li>
+            </ul>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+  <div class="row">
+    <div class="Local-Action col-sm-12">
+      <h2>How to get involved</h2>
+      <p>Local community action groups, lectures and events open to the public</p>
+    </div>
+    <div class="container col-sm-12">
+      <div id="map"></div>
+      <script>
+      function initMap() {}
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
